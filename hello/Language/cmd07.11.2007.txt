@@ -1,0 +1,44 @@
+cls
+cd Jav
+cd Java
+cd Fundamentals\Language
+cls
+dir
+cls
+notepad payroll\Employee.java
+javac payroll\Employee.java
+notepad PayrollTest3.java
+javac PayrollTest3.java
+java PayrollTest3
+cls
+javac PayrollTest3.java
+java PayrollTest3
+cls
+javac payroll\Employee.java
+javac PayrollTest3.java
+java PayrollTest3
+cls
+javac payroll\Employee.java
+java PayrollTest3
+cls
+javac PayrollTest3.java
+java PayrollTest3
+cls
+md edu\met\iit\banking
+notepad edu\met\iit\banking\InsufficientFundsException.java
+javac edu\met\iit\banking\InsufficientFundsException.java
+notepad edu\met\iit\banking\IllegalTransferException.java
+javac edu\met\iit\banking\IllegalTransferException.java
+notepad edu\met\iit\banking\Account.java
+javac edu\met\iit\banking\Account.java
+cls
+javac edu\met\iit\banking\Account.java
+notepad edu\met\iit\banking\BankAccount.java
+javac edu\met\iit\banking\BankAccount.java
+cls
+javac edu\met\iit\banking\BankAccount.java
+notepad edu\met\iit\banking\CurrentAccount.java
+javac edu\met\iit\banking\CurrentAccount.java
+notepad edu\met\iit\banking\SavingsAccount.java
+javac edu\met\iit\banking\SavingsAccount.java
+doskey /h >cmd07.11.2007.txt

@@ -1,0 +1,50 @@
+notepad PayrollTest3.java
+javac PayrollTest3.java
+java PayrollTest3
+javac PayrollTest3.java
+java PayrollTest3
+notepad payroll\Employee.java
+javac payroll\Employee.java
+java PayrollTest3
+notepad payroll\Employee.java
+javac payroll\Employee.java
+java PayrollTest3
+javac PayrollTest3.java
+cls
+javac PayrollTest3.java
+java PayrollTest3
+doskey /h > cmd06.11.2007.txt
+javac SalesPerson.java
+cd ..
+cls
+notepad PayrollTest1.java
+javac PayrollTest1.java
+cls
+javac PayrollTest1.java
+cls
+javac PayrollTest1.java
+cls
+javac PayrollTest1.java
+java PayrollTest1
+javap payroll.SalesPerson
+javap -p payroll.SalesPerson
+javap -p payroll.Employee
+cls
+javac payroll\Employee.java
+javac payroll\SalesPerson.java
+javac payroll\Employee.java
+javac payroll\SalesPerson.java
+notepad PayrollTest2.java
+cls
+javac PayrollTest2.java
+java PayrollTest2
+javac PayrollTest2.java
+cls
+javac PayrollTest2.java
+java PayrollTest2
+cls
+javac PayrollTest2.java
+java PayrollTest2
+cls
+javap java.lang.Object
+cls

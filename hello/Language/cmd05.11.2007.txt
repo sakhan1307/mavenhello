@@ -1,0 +1,50 @@
+java App
+java Language\App
+cls
+set classpath=c:\Java\Fundamentals\Language
+java App
+move Language\App.class .
+java App
+set classpath=
+java App
+java App Jack
+set classpath=c:\Java\Fundamentals\Language;.
+java App
+java App Jack
+cls
+set classpath=
+java App Jack
+java -classpath .;c:\Java\Fundamentals\Language App Jack
+doskey /h > cmd05.11.2007.txt
+cd Fundamentals
+cls
+md Language
+cd Language
+cls
+notepad Hello.java
+javac Hello.java
+dir
+java App
+cls
+javac Hello.java
+java App
+java App Jack
+java Greeter
+java App
+java App Jack
+del Greeter.class
+java App
+java App Jack
+javac Hello.java
+java App Jack
+notepad App.class
+java App
+cls
+javac Hello.java
+java App
+java app
+cls
+java App
+ftp 192.168.1.68
+cls
+cd ..

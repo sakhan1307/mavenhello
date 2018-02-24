@@ -1,0 +1,50 @@
+Data1.txt
+doskey /h >cmd14.11.07.txt
+javac ObjectIOTest.java
+cls
+javac ObjectIOTest.java
+java ObjectIOTest
+javap java.io.Serializable
+java ObjectIOTest
+cls
+del manager.ser
+java ObjectIOTest
+javac payroll\Employee.java
+del manager.ser
+cls
+java ObjectIOTest
+dir manager.ser
+type manager.ser
+del manager.ser
+cls
+javac payroll\Employee.java
+java ObjectIOTest
+type manager.ser
+del manager.ser
+cls
+javac payroll\Employee.java
+cls
+java ObjectIOTest
+type manager.ser
+cls
+javac payroll\Employee.java
+java ObjectIOTest
+cls
+javac payroll\Employee.java
+java ObjectIOTest
+cls
+serialver payroll.Employee
+cls
+javac payroll\Employee.java
+java ObjectIOTest
+cls
+notepad NewIOTest.java
+javac NewIOTest.java
+notepad Data1.txt
+java NewIOTest Data1.txt
+notepad Data1.txt
+java NewIOTest Data1.txt
+notepad Data1.txt
+java NewIOTest Data1.txt
+Data1.txt
+java NewIOTest Data1.txt

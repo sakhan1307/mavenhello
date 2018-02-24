@@ -1,0 +1,50 @@
+javadoc -d banking-docs edu.met.iit.banking
+cls
+doskey /h > cmd08.11.07.txt
+cls
+dir
+cls
+notepad edu\met\iit\banking\Banker.java
+javac edu\met\iit\banking\Banker.java
+notepad BankingTest1.java
+javac BankingTest1.java
+java BankingTest1 2000
+java BankingTest1 4800
+cls
+java BankingTest1 abcd
+javap java.lang.NumberFormatException
+javap java.lang.IllegalArgumentException
+cls
+javac BankingTest1.java
+java BankingTest1 abcd
+java BankingTest1
+javac BankingTest1.java
+cls
+java BankingTest1 2000
+java BankingTest1 4900
+java BankingTest1 abcd
+java BankingTest1
+notepad BankingTest2.java
+cls
+javac BankingTest2.java
+java BankingTest2 2000
+java BankingTest2 4800
+javac BankingTest2.java
+java BankingTest2 2000
+java BankingTest2 4800
+cls
+notepad BankingTest3.java
+javac BankingTest3.java
+java BankingTest3
+notepad edu\met\iit\banking\SavingsAccount.java
+notepad edu\met\iit\banking\Profitable.java
+javac edu\met\iit\banking\Profitable.java
+notepad edu\met\iit\banking\SavingsAccount.java
+javac edu\met\iit\banking\SavingsAccount.java
+javac edu\met\iit\banking\Profitable.java
+javap edu.met.iit.banking.Profitable
+javac edu\met\iit\banking\SavingsAccount.java
+cls
+javac BankingTest3.java
+java BankingTest3
+md banking-docs

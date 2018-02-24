@@ -1,0 +1,50 @@
+copy ThreadJoinTest.java ThreadWaitTest.java
+notepad ThreadWaitTest.java
+javac ThreadWaitTest.java
+java ThreadWaitTest
+cls
+javac ThreadWaitTest.java
+java ThreadWaitTest
+cls
+javac ThreadWaitTest.java
+javap java.lang.Object
+cls
+notepad ThreadLocalTest.java
+javac ThreadLocalTest.java
+java ThreadLocalTest
+cls
+javac ThreadLocalTest.java
+java ThreadLocalTest
+cls
+java ThreadLocalTest
+cls
+notepad ProcessTest.java
+javac ProcessTest.java
+java ProcessTest
+cls
+javac ProcessTest.java
+java ProcessTest
+cls
+javac ProcessTest.java
+java ProcessTest
+cls
+notepad ShutdownTest.java
+javac ShutdownTest.java
+java ShutdownTest
+javac ShutdownTest.java
+java ShutdownTest
+cls
+javac ShutdownTest.java
+javac -deprecation ShutdownTest.java
+javac ShutdownTest.java
+doskey /h >cmd13.11.07.txt
+cls
+notepad ThreadSyncTest.java
+javac ThreadSyncTest.java
+java ThreadSyncTest
+cls
+javac ThreadSyncTest.java
+java ThreadSyncTest
+javac ThreadSyncTest.java
+java ThreadSyncTest
+cls

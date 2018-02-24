@@ -1,0 +1,50 @@
+java SysPropsTest 
+|
+java SysPropsTest  | more
+cls
+java -D user.age=25 SysPropsTest
+java -Duser.age=25 SysPropsTest
+java -Duser.age=25 SysPropsTest | more
+cls
+java -Duser.age=25 SysPropsTest | more
+cls
+java -Djava.security.manager SysPropsTest os.arch
+java -Djava.security.manager SysPropsTest user.name
+cls
+policytool
+java -Djava.security.manager SysPropsTest user.name
+cls
+policytool
+java -Djava.security.manager SysPropsTest user.name
+policytool
+cls
+java -Djava.security.manager SysPropsTest user.name
+doskey /h >cmd12.11.07.txt
+javac HashMapTest.java
+java HashMapTest jill
+java HashMapTest jack
+java HashMapTest jerry
+javac HashMapTest.java
+java HashMapTest jerry
+cls
+javap java.util.Map
+javap java.util.Map$Entry
+cls
+javac HashMapTest.java
+java HashMapTest
+java HashMapTest jim
+copy HashMapTest.java TreeMapTest.java
+notepad TreeMapTest.java
+javac TreeMapTest.java
+cls
+java TreeMapTest john
+java TreeMapTest
+notepad SysPropsTest.java
+javac SysPropsTest.java
+cls
+java SysPropsTest user.name
+java SysPropsTest user.age
+cls
+javac SysPropsTest.java
+java SysPropsTest user.name
+java SysPropsTest
