@@ -1,0 +1,17 @@
+cd Fundamentals
+cd Reflection
+cls
+java -classpath .;commands ClassLoaderTest
+javac ClassLoaderTest.java
+java ClassLoaderTest
+java -classpath .;commands ClassLoaderTest
+java ClassLoaderTest
+java -classpath .;commands ClassLoaderTest
+cls
+java -classpath .;commands ClassLoaderTest
+java ClassLoaderTest
+javac ClassLoaderTest.java
+java ClassLoaderTest
+doskey /h >cmd215.11.07.txt
+del cmd215.11.07.txt
+doskey /h > secondcmd15.11.07.txt

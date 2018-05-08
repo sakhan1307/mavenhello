@@ -1,0 +1,50 @@
+java LateBindingTest 300000 5 finance.HomeLoan interestRate
+java LateBindingTest 300000 5 finance.BusinessLoan rateOfInterest
+doskey /h >cmd15.11.07.txt
+cls
+cd Reflection
+cls
+javac payroll\*.java
+notepad Reflector.java
+javac Reflector.java
+java Reflector
+cls
+javac Reflector.java
+java Reflector
+javac Reflector.java
+java Reflector
+javac Reflector.java
+java Reflector
+cls
+javac Reflector.java
+java Reflector
+javac Reflector.java
+java Reflector
+cls
+javac Reflector.java
+java Reflector
+notepad payroll\SalesPerson.java
+javac payroll\SalesPerson.java
+cls
+javac payroll\SalesPerson.java
+java Reflector
+java -Djava.security.manager Reflector
+policytool
+cls
+java -Djava.security.manager Reflector
+cls
+notepad DynamicBindingTest.java
+javac DynamicBindingTest.java
+java DynamicBindingTest 300000 5 
+javac finance\*.java
+java DynamicBindingTest 300000 5 finance.HomeLoan
+javac DynamicBindingTest.java
+java DynamicBindingTest 300000 5 finance.HomeLoan
+java DynamicBindingTest 300000 5 finance.EducationLoan
+java DynamicBindingTest 300000 5 finance.CarLoan
+java DynamicBindingTest 300000 5 finance.PersonalLoan
+java DynamicBindingTest 300000 5 finance.BusinessLoan
+cls
+copy DynamicBindingTest.java LateBindingTest.java
+notepad LateBindingTest.java
+javac LateBindingTest.java

@@ -1,7 +1,7 @@
 package threads.test;
 class PrintItem{
 
-	private static ThreadLocal slot = new ThreadLocal();
+	private static ThreadLocal<String> slot = new ThreadLocal<String>();
 	
 	public static String getText(){
 		return (String) slot.get();
