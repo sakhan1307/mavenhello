@@ -5,7 +5,7 @@ import collections.payroll.*;
 
 class TreeSetTest2{
 
-	private static void populate(Collection employees){
+	private static void populate(Collection<Employee> employees){
 		Employee manager = new Employee(220, 350);
 		employees.add(manager);
 		employees.add(new Employee(195, 80));
@@ -16,8 +16,8 @@ class TreeSetTest2{
 		employees.add(manager);	
 	}
 
-	private static void process(Collection employees){
-		Iterator i = employees.iterator();
+	private static void process(Collection<Employee> employees){
+		Iterator<Employee> i = employees.iterator();
 		while(i.hasNext()){
 			Employee emp = (Employee) i.next();
 			System.out.println(emp + "\t" + emp.getNetIncome());
@@ -25,16 +25,14 @@ class TreeSetTest2{
 	}
 
 	public static void main(String[] args){
-		Comparator c = new Comparator(){
-			public int compare(Object first, Object second){
-				Employee fe = (Employee) first;
-				Employee se = (Employee) second;
+		Comparator<Employee> c = new Comparator<Employee>(){
+			public int compare(Employee fe, Employee se){
 				if(fe.getRate() != se.getRate())
 					return (int) (se.getRate() - fe.getRate());
 				return fe.getId() - se.getId();
 			}
 		};
-		TreeSet dept = new TreeSet(c);
+		TreeSet<Employee> dept = new TreeSet<Employee>(c);
 		populate(dept);
 		process(dept);
 	}

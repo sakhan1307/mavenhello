@@ -5,7 +5,7 @@ import collections.payroll.*;
 
 class HashSetTest{
 
-	private static void populate(Collection employees){
+	private static void populate(Collection<Employee> employees){
 		Employee manager = new Employee(220, 350);
 		employees.add(manager);
 		employees.add(new Employee(195, 80));
@@ -16,8 +16,8 @@ class HashSetTest{
 		employees.add(manager);	
 	}
 
-	private static void process(Collection employees){
-		Iterator i = employees.iterator();
+	private static void process(Collection<Employee> employees){
+		Iterator<Employee> i = employees.iterator();
 		while(i.hasNext()){
 			Employee emp = (Employee) i.next();
 			System.out.println(emp + "\t" + emp.getNetIncome());
@@ -25,7 +25,7 @@ class HashSetTest{
 	}
 
 	public static void main(String[] args){
-		HashSet dept = new HashSet();
+		HashSet<Employee> dept = new HashSet<Employee>();
 		populate(dept);
 		process(dept);
 	}

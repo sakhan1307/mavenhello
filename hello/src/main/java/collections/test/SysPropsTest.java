@@ -8,8 +8,8 @@ class SysPropsTest{
 			System.out.println(System.getProperty(args[0]));
 		else{
 			Properties props = System.getProperties();
-			Set keys = props.keySet();
-			for(Iterator i = keys.iterator(); i.hasNext();){
+			Set<Object> keys = props.keySet();
+			for(Iterator<Object> i = keys.iterator(); i.hasNext();){
 				String key = (String) i.next();
 				System.out.println(key + " = " + props.getProperty(key));
 			}

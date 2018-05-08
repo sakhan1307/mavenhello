@@ -1,11 +1,12 @@
 package collections.test;
 import java.util.*;
+import java.util.Map.Entry;
 
 import collections.payroll.*;
 
 class TreeMapTest{
 
-	private static void populate(Map employees){
+	private static void populate(Map<String, Employee> employees){
 		employees.put("jack", new Employee(195, 115));
 		employees.put("jill", new Employee(180, 250));
 		employees.put("jim", new SalesPerson(160, 75, 30000));
@@ -14,17 +15,17 @@ class TreeMapTest{
 		employees.put("jack", new Employee(225, 350));
 	}
 
-	public static void process(Map employees){
-		Set pairs = employees.entrySet();
-		for(Iterator i = pairs.iterator(); i.hasNext();){
-			Map.Entry pair = (Map.Entry) i.next();
+	public static void process(Map<String, Employee> employees){
+		Set<Map.Entry<String, Employee>> pairs = employees.entrySet();
+		for(Iterator<Entry<String, Employee>> i = pairs.iterator(); i.hasNext();){
+			Map.Entry<String, Employee> pair = (Map.Entry<String, Employee>) i.next();
 			System.out.println(pair.getKey() + "\t" + pair.getValue());
 		}
 
 	}
 
 	public static void main(String[] args){
-		TreeMap dept = new TreeMap();
+		TreeMap<String, Employee> dept = new TreeMap<String, Employee>();
 		populate(dept);
 		if(args.length == 0)
 			process(dept);
