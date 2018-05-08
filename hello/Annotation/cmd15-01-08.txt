@@ -1,0 +1,40 @@
+dir
+notepad GenericTypeTest.java
+javac GenericTypeTest.java
+cls
+javac GenericTypeTest.java
+cls
+javac GenericTypeTest.java
+java GenericTypeTest
+copy GenericTypeTest.java GenericWildCardTest.java
+notepad GenericWildCardTest.java
+javac GenericWildCardTest.java
+java GenericWildCardTest
+cls
+javac GenericWildCardTest.java
+java GenericWildCardTest
+cls
+copy GenericWildCardTest.java GenericBoundedTest.java
+notepad GenericBoundedTest.java
+javac GenericBoundedTest.java
+java GenericBoundedTest
+javac GenericBoundedTest.java
+java GenericBoundedTest
+cls
+notepad AnnotationTest.java
+javac AnnotationTest.java
+cls
+javac AnnotationTest.java
+cls
+javac AnnotationTest.java
+cls
+java AnnotationTest 80000 EducationLoan
+java AnnotationTest 80000 PersonalLoan
+java AnnotationTest 80000 HomeLoan
+javac AnnotationTest.java
+java AnnotationTest 80000 CarLoan
+java AnnotationTest 80000 HomeLoan
+javac AnnotationTest.java
+java AnnotationTest 80000 HomeLoan
+java AnnotationTest 80000 CarLoan
+doskey /h >cmd15-01-08.txt

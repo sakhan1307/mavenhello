@@ -1,0 +1,51 @@
+Invalid macro definition.
+javac EnumCodeTest.java
+java EnumCodeTest
+cls
+javac EnumCodeTest.java
+java EnumCodeTest
+cls
+java EnumCodeTest
+cls
+dir *.class
+javap RoomType$3
+cla
+cls
+java EnumCodeTest
+doskey /h >cmd21.11.07.txt
+doskey /h >cmd14.01.08 .txt
+cls
+dir
+notepad BoxingTest.java
+javac BoxingTest.java
+java BoxingTest
+javac BoxingTest.java
+java BoxingTest
+cls
+notepad ForEachTest.java
+javac ForEachTest.java
+java ForEachTest Jack Jane Jeff Jim
+cls
+notepad VarArgsTest.java
+javac VarArgsTest.java
+java VarArgsTest
+cls
+notepad EnumTest.java
+javac EnumTest.java
+java EnumTest
+dir *.class
+javap RoomType
+javap EnumTest$1
+cls
+copy EnumTest.java EnumDataTest.java
+notepad EnumDataTest.java
+javac EnumDataTest.java
+java EnumDataTest
+cls
+notepad EnumDataTest.java
+copy EnumTest.java EnumCodeTest.java
+notepad EnumCodeTest.java
+javac EnumCodeTest.java
+cls
+javac EnumCodeTest.java
+cls
